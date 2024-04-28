@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+      body {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "Inter", sans-serif;
+      }
+      div.section1 {
+        background-image: url(./bgimg.png);
+        width: 100%;
+        height: 860px;
+      }
+      div.container {
+        max-width: 1320px;
+        width: 100%;
+        height: 88px;
+        margin: auto;
+      }
+      nav > div:nth-of-type(1) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 22px 15px;
+      }
+      nav > div > div:nth-of-type(1) {
+        display: flex;
+        align-items: center;
+      }
+      button.primary_button {
+        padding: 12px 21px 12px 21px;
+        border-radius: 200px;
+        background-color: transparent;
+        font-size: 14px;
+        font-weight: 500;
+      }
+      nav > div > div:nth-of-type(1) > span {
+        font-size: 14px;
+        font-weight: 400;
+      }
+      nav > div > div:nth-of-type(1) > span {
+        box-sizing: border-box;
+        padding: 8px 40px 8px 20px;
+      }
+      nav > div > div:nth-of-type(2) > span {
+        font-weight: 400;
+        box-sizing: border-box;
+        padding: 8px 40px 8px 20px;
+        font-size: 14px;
+        padding: 8px 40px 8px 20px;
+      }
+      div.container2 {
+        max-width: 880px;
+        margin: auto;
+        margin-top: 60px;
+      }
+      div.container2 > h1 {
+        width: 664px;
+        font-size: 60px;
+        background: linear-gradient(
+          #ee8c61,
+          #dc846c,
+          #b37185,
+          #855da1,
+          #5f4cb8
+        );
+        color: transparent;
+        background-clip: text;
+
+        text-align: center;
+        margin: auto;
+        margin-bottom: 27px;
+      }
+      div.container2 > div:nth-of-type(1) {
+        width: 850px;
+        height: 80px;
+
+        margin: auto;
+        border-radius: 200px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 15px 20px;
+      }
+      div.container2 > div:nth-of-type(1) > div {
+        display: flex;
+        align-items: center;
+      }
+      .secondary_button {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #fef7f4;
+        border: none;
+      }
+      div.container1 {
+        max-width: 1320px;
+        width: 100%;
+        height: 600px;
+
+        margin: auto;
+        margin-top: 112px;
+        box-sizing: border-box;
+        padding: 5px 15px 0px 15px;
+      }
+      div.section2 {
+        width: 100%;
+        height: 860px;
+      }
+      div.container1 > div:nth-of-type(1) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: rgb(13, 13, 59);
+      }
+      div.container1 > div:nth-of-type(1) h2,
+      span {
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      div.container1 > div:nth-of-type(1) span {
+        box-sizing: border-box;
+        padding-top: 16px;
+      }
+      div.flexbox {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
+      div.flexbox1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 32px;
+      }
+      div.flexbox {
+        margin-top: 40px;
+      }
+      div.flexbox > div img {
+        border-radius: 12px;
+      }
+      div.container3 {
+        max-width: 1320px;
+        width: 100%;
+        height: 300px;
+
+        margin: auto;
+        margin-top: 105px;
+        box-sizing: border-box;
+        padding: 0px 15px 0px 15px;
+      }
+      div.container3 > div {
+        display: flex;
+        margin-top: 40px;
+        gap: 74px;
+      }
+      div.container3 > div > div > p:nth-of-type(2) {
+        font-size: 14px;
+        width: 255px;
+        line-height: 24px;
+      }
+      div.container3 > div > div > p:nth-of-type(1) {
+        margin-top: 30px;
+        line-height: 24px;
+      }
+      div.container3 h2 {
+        color: rgb(13, 13, 59);
+        font-weight: 700;
+        font-size: 30px;
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="section1">
+      <header>
+        <div class="container">
+          <nav>
+            <div>
+              <div>
+                <img src="./logo.svg.png" alt="logo" />
+                <span>Home</span><span>Tour</span><span>Destination</span
+                ><span>Activities</span><span>Pages</span><span>Contact</span>
+              </div>
+
+              <div>
+                <span>USD</span>
+                <span>Help</span>
+                <span>Sign up</span>
+                <button class="primary_button">Log in</button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <div class="container2">
+        <h1>Life Is Adventure Make The Best Of it</h1>
+        <div>
+          <div>
+            <button class="secondary_button"></button>
+            <span style="width: 128px">Where Search destinations</span>
+          </div>
+          <div>
+            <button class="secondary_button"></button>
+            <span style="width: 128px">When Februrary 05 ~ March 14</span>
+          </div>
+          <div>
+            <button class="secondary_button"></button>
+            <span style="width: 128px">
+              <h5>Tour Type</h5>
+              <p>All tour</p></span
+            >
+          </div>
+          <button
+            class="secondary_button"
+            style="background-color: #eb6636"
+          ></button>
+        </div>
+      </div>
+    </div>
+    <div class="section2">
+      <div class="container1">
+        <div>
+          <h2>Popular things to do</h2>
+          <span>See all</span>
+        </div>
+
+        <div class="flexbox">
+          <div style="margin-top: 7px"><img src="./cruises.png" alt="" /></div>
+          <div>
+            <div><img src="./beachtours.png" alt="" /></div>
+            <div style="margin-top: 32px">
+              <img src="./museumtour.png" alt="" />
+            </div>
+          </div>
+          <div>
+            <div><img src="./citytours.png" alt="" /></div>
+            <div class="flexbox1">
+              <div><img src="./food.png" alt="" /></div>
+              <div><img src="./hiking.png" alt="" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container3">
+        <h2>Why choose Tourz</h2>
+        <div>
+          <div>
+            <div><img src="./ticket.png" alt="" /></div>
+            <p>Ultimate flexibility</p>
+            <p>
+              You're in control, with free cancellation and payment options to
+              satisfy any plan or budget.
+            </p>
+          </div>
+          <div>
+            <div><img src="./ballon.png" alt="" /></div>
+            <p>Memorable experiences</p>
+            <p>
+              Browse and book tours and activities so incredible, you'll want to
+              tell your friends.
+            </p>
+          </div>
+          <div>
+            <div><img src="./diamond.png" alt="" /></div>
+            <p>Quality at our core</p>
+            <p>High-quality standards. Millions of reviews. A tourz company.</p>
+          </div>
+          <div>
+            <div><img src="./medal.png" alt="" /></div>
+            <p>Award-winning support</p>
+            <p>New price? New plan? No problem. We're here to help, 24/7.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
